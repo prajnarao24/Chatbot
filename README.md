@@ -77,22 +77,3 @@ The app will open in your browser at `http://localhost:8501`.
 
 ---
 
-## Deployment
-
-This app can be deployed for free on [Streamlit Community Cloud](https://share.streamlit.io/):
-
-1. Push this repo to GitHub (already done ✅)
-2. Go to share.streamlit.io and sign in with GitHub
-3. Click **New app**, select this repo and branch
-4. Set the main file path to `chatmodels/uichatbot.py`
-5. Under **Advanced settings → Secrets**, add:
-   ```
-   MISTRAL_API_KEY = "your-actual-key-here"
-   ```
-6. Click **Deploy**
-
----
-
-## License
-
-This project is open source and available for personal or educational use.
